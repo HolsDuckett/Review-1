@@ -1,4 +1,7 @@
 
 def report(grade)
-  "Green: 1"
+  output = "#{grade}: #{grade.split.count}"
+  # "Green: 1"
 end
+
+# "Green"                      =>      "Green: 1"
