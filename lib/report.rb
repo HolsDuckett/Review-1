@@ -1,7 +1,9 @@
 
 def report(grade)
-  output = "#{grade}: #{grade.split.count}"
-  # "Green: 1"
+  grade_array = grade.split(", ")
+  # ["Green", "Green"]
+
+  output = "#{grade_array[0]}: #{grade_array.count("Green")}"
 end
 
-# "Green"                      =>      "Green: 1"
+# "Green, Green"               =>      "Green: 2"

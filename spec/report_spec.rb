@@ -6,7 +6,11 @@ describe 'report' do
     expect(report("Green")).to eq("Green: 1")
   end
 
+  it "should take in multiple strings of the same grade and return the string with count of grade" do
+    expect(report("Green, Green")).to eq("Green: 2")
+  end
+
 end
 
 
-# "Green"                      =>      "Green: 1"
+# "Green, Green"               =>      "Green: 2"
