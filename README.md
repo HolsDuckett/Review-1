@@ -10,9 +10,6 @@ I asked for an example of the input and the expected output and was given "Green
 
 I broke this down into an input/ output table, starting with the simplest possible exmample that may be given and expaning on this step by step:
 
-| Name                         |  Description       | Tech/tools        |
-| ---------------------------- | ----------------- | ----------------- |
-| [Scrummy] |Final Project: . | React Native, Node.js, Express, MongoDB |
 
 |           INPUT            |        OUTPUT      |
 | -------------------------- | ----------------- |
