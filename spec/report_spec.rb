@@ -14,6 +14,10 @@ describe 'report' do
     expect(report("Green, Amber")).to eq("Green: 1\nAmber: 1")
   end
 
+  it "should take in each different grade colours and output a string with each colour grade and it's count" do
+    expect(report("Green, Amber, Red")).to eq("Green: 1\nAmber: 1\nRed: 1")
+  end
+
 end
 
 

@@ -3,17 +3,22 @@ def report(grade)
 
   grade_array = grade.split(", ")
 
-  green = grade_array.count("Green")
-  amber = grade_array.count("Amber")
+  green_count = grade_array.count("Green")
+  amber_count = grade_array.count("Amber")
+  red_count = grade_array.count("Red")
 
   grade_report = []
 
-  if green > 0
-    grade_report << "Green: #{green}"
+  if green_count > 0
+    grade_report << "Green: #{green_count}"
   end
 
-  if amber > 0
-    grade_report << "Amber: #{amber}"
+  if amber_count > 0
+    grade_report << "Amber: #{amber_count}"
+  end
+
+  if red_count > 0
+    grade_report << "Red: #{red_count}"
   end
 
   grade_report.join("\n")
