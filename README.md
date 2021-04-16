@@ -49,4 +49,11 @@ After the hour review i ended up with an MVP and after the review added in the e
 
 ## Reviewer Feedback
 
-See link (here)[file:///Users/Student/Downloads/2021-02-26-Green%20Riachu%2079-feedback%20(2).pdf].
+This was a good first review and you showed a reasonable
+understanding of what a TDD process should be. There are just a few
+refinements that you can make. The main one being not to add production code
+if you do not have a failing test for it yet.
+
+Strong: Write code that is easy to change.
+Steady: Program Fluency, Debugging, Modelling, Justify Code Choices.
+Improving: TDD anything, Refactoring, Methodical Approach, Agile Process.
