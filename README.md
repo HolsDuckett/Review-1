@@ -43,40 +43,10 @@ INPUT                        |        OUTPUT
 
 From here I followed a TDD approach and took each example input as the test i would lead with.
 
-After the hour review i ended up with an MVP and after the review added in the edgecases in my own time.
+After the hour review i ended up with an MVP and after the review added in the edge cases in my own time.
+
+![](assets/README-0f8f3ad5.png)
 
 ## Reviewer Feedback
 
-
-file:///Users/Student/Downloads/2021-02-26-Green%20Riachu%2079-feedback%20(2).pdf
-
-
-
-
-
-
-
-I was able to produce an MVP using the TDD process and can interact with it on the command line:
-
-School report application which taken the
-School report
-string test result, seperated by commas
-Only output grades that have a count
-Something that gets allocated to the uncounted category when its not a valid grade
-
-Example:
-Takes 1 argument of a string of grades
-method: report()
-"Green, Green, Amber, Red, Green" => "Green: 3\nAmber: 1\nRed: 1"
-Only output grades that have a count
-spaces or no spaces in input
-
-
-INPUT                        |        OUTPUT
-"Green"                      =>      "Green: 1"
-"Green, Green"               =>      "Green: 2"
-"Green, Amber"               =>      "Green: 1\nAmber: 1"
-"Green, Amber, Red"          =>      "Green: 1\nAmber: 1\nRed:1"
-"Green,Dave,Whimsy,Red"      =>      "Green: 1\nRed: 1\nUncounted: 2"
-
-r
+See link (here)[file:///Users/Student/Downloads/2021-02-26-Green%20Riachu%2079-feedback%20(2).pdf].
