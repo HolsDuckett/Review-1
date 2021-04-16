@@ -15,6 +15,8 @@ INPUT                        |        OUTPUT
 "Green, Green"               =>      "Green: 2"
 "Green, Amber"               =>      "Green: 1\nAmber: 1"
 "Green, Amber, Red"          =>      "Green: 1\nAmber: 1\nRed:1"
+"Green, Green, Amber, Red"   =>      "Green: 2\nAmber: 1\nRed:1"
+
 
 Once i had the basic steps down I started to ask further questions to ensure my table was correct and explore possible edge cases.
 
